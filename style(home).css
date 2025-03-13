@@ -1,31 +1,105 @@
-@import url(https://fonts.adobe.com/fonts/inter-tight-variable);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
   
 
-
-
-.img {
-
-width: 250px;
-border-radius: 50%;
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }
 
-nav {
+body {
+    background-color: #D9D9D9;
+}
+
+.cabecalho {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    align-content: center;
+    justify-content: center;
+    padding: 24px;
+    border-bottom: 0.4px solid #FFFFFF;
+    
 }
 
-h1 {
+.menu-nav {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    gap: 32px;
+}
+
+.menu {
+    color: black;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+    border-top: 0.4px solid #FFFFFF;
+
+}
+
+img {
+    height: 253px;
+    width: 245px;
+    border-radius: 50%;
+    margin: 25px;
+}
+
+.texto-foto1{
+    display: flex;
+    font-family: "Inter", sans-serif;
     font-size: 64px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+
 }
 
-h3 { 
+.texto-foto2 {
+    display: flex;
+    font-family: "Inter", sans-serif;
     font-size: 32px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
 }
 
-p {
-    font-size: 32px;
-    position: relative;
+
+.texto-principal {
+    display: flex;
+    justify-content:  left;
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    margin-left: 20%;
+    margin-top: 280px;
+
+}
+
+.foto1 {
+    display: flex;
+    align-items: center;
+}
+
+.minhas-tecnogias {
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+margin-top: 150px;}
+
+.texto-foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao {
+text-align: center;
+margin-top: 50px;
+font-size: 45px;
+border-radius: 15px;
+font-family: "Inter", sans-serif;
+color: black;
+background-color: dimgray;
 }
