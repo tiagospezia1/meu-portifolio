@@ -31,75 +31,37 @@ body {
 
 }
 
-main {
-    display: flex;
-    flex-direction: row;
-    align-items:start;
-    border-top: 0.4px solid #FFFFFF;
-
+.main {
+    padding: 35px;
 }
 
-img {
-    height: 253px;
-    width: 245px;
-    border-radius: 50%;
-    margin: 25px;
-}
-
-.texto-foto1{
-    display: flex;
+.titulo {
     font-family: "Inter", sans-serif;
-    font-size: 64px;
-    font-weight: 500;
-    text-align: center;
-    justify-content: center;
-
-}
-
-.texto-foto2 {
     display: flex;
-    font-family: "Inter", sans-serif;
-    font-size: 32px;
+    flex-direction: column;
     text-align: center;
-    justify-content: center;
-    align-items: center;
-
+    font-size: 48px;
 }
 
+.subtitulo {
+    font-size: 29px;
+}
 
 .texto-principal {
     display: flex;
-    justify-content:  left;
-    font-family: "Inter", sans-serif;
-    font-size: 50px;
-    margin-left: 20%;
-    margin-top: 280px;
-
-}
-
-.foto1 {
-    display: flex;
-    align-items: center;
-}
-
-.minhas-tecnogias {
-    font-family: "Inter", sans-serif;
-    font-size: 50px;
-margin-top: 150px;}
-
-.texto-foto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-size: 65px;
+    margin-top: 150px;
 }
 
 .botao {
-text-align: center;
-margin-top: 50px;
-font-size: 45px;
-border-radius: 15px;
-font-family: "Inter", sans-serif;
-color: black;
-background-color: dimgray;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    padding: 10px;
+    font-family: "Inter", sans-serifS;
+    font-size: 30px;
+    border-radius: 10px;
 }
