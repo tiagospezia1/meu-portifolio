@@ -31,38 +31,25 @@ body {
 
 }
 
-.titulo {
-    font-family: "Inter", sans-serif;
+.main {
     display: flex;
     justify-content: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.titulo1 {
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    display: flex;
     margin-top: 35px;
-    font-size: 40px;
 }
 
-.texto1 {
+.texto1  {
     font-family: "Inter", sans-serif;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 50px;
-    font-size: 40px;
-}
-
-.subtitulo {
-    font-family: "Inter", sans-serif;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
     font-size: 30px;
-}
-
-.texto2 {
-    font-family: "Inter", sans-serif;
     display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 50px;
-    font-size: 30px;
+    flex-direction: column;
+    margin-top: 35px;
+
 }
-
-
