@@ -56,12 +56,23 @@ body {
     margin-top: 150px;
 }
 
-.botao {
+.botao-principal {  
     display: flex;
     justify-content: center;
-    margin: 25px;
+    align-items: center;
+    margin: 25px auto;
+    font-size: 35px;
     padding: 10px;
-    font-family: "Inter", sans-serifS;
-    font-size: 30px;
-    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    border-radius: 40px;
+    width: fit-content;
 }
+
+.botao-texto {
+    font-size: 35px;
+    font-family: "Inter", sans-serif;
+    color: black;
+}
+
+
+
